@@ -1,0 +1,26 @@
+.footer__links {
+  color: rgb(93, 93, 161);
+  padding: 5px;
+  margin-top: 3px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.footer__links :hover {
+  color: #ffff;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.subscribe__button {
+  background: linear-gradient(
+    -45deg,
+    rgba(224, 103, 222, 1) 0%,
+    rgba(224, 103, 222, 1) 10%,
+    rgba(73, 155, 234, 1) 100%
+  ) !important;
+}
+
+#copyright {
+  font-size: 1.3rem;
+}

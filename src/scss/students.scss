@@ -1,0 +1,22 @@
+.studetns__container {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.student__img img {
+  height: 100px;
+}
+
+.students {
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.modal-title {
+  font-size: 2rem !important;
+}
+
+li {
+  font-size: 1.6rem;
+}

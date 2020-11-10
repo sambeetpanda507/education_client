@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "variable";
+.nav__bg {
+  background-color: $navBarColor;
+  font-family: "Montserrat", sans-serif;
+  .nav__link,
+  .nav-item span {
+    font-size: 2.4rem;
+    color: $navLinkColor !important;
+    text-shadow: 0.1rem 0.1rem rgb(148, 146, 146);
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+  .dropdown-item {
+    font-size: 1.6rem;
+  }
+  .MuiIconButton-root {
+    outline: none;
+  }
+  .MuiSvgIcon-fontSizeLarge {
+    color: $navLinkColor;
+    font-weight: bolder;
+  }
+  .navbar-toggler {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+.dropdown-menu li a {
+  color: rgb(0, 0, 0) !important;
+  font-size: 0.5rem;
+}
+
+.link__active {
+  border-bottom: 0.1rem solid $navLinkColor;
+  padding-bottom: 0.3rem;
+  font-weight: bolder;
+}
